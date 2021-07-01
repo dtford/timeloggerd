@@ -1,5 +1,7 @@
 // To Compile:
 // gcc timeloggerd.c -o timeloggerd
+// or, to cross-compile for IoT:
+// /path/to/buildroot/output/host/usr/bin/arm-linux-gcc --sysroot=/path/to/buildroot/output/staging timeloggerd.c -o timeloggerd
 
 #include <time.h>
 #include <syslog.h>
